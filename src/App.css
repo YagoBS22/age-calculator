@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: hsl(0, 0%, 94%) !important;
+}
+/*Forms CSS*/
+.form-fonts {
+  font-family: 'Poppins' !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  color: hsl(270, 56%, 38%);
+  font-size: 16px !important;
+  margin-block: 3px !important;
+}
+
+.form-fonts-error {
+  color: hsl(0, 100%, 67%);
+}
+
+.css-er619e-MuiFormHelperText-root.Mui-error {
+  margin: 2px;
+  padding: 1px;
+  font-family: 'Poppins' !important;
+  font-style: italic;
+  font-size: 11px !important;
+  margin-top: 5px !important;
+  font-weight: 500 !important;
+}
+
+.css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
+  font-weight: 800 !important;
+  font-family: 'Poppins' !important;
+  letter-spacing: 2px !important;
+  color: hsl(271, 30%, 37%) !important;
+}
+
+.sub-btn {
+  background-color: hsl(270, 56%, 38%) !important;
+  box-shadow: none !important;
+  padding: 32px !important;
+}
+
+.sub-btn:hover {
+  background-color: hsl(270, 55%, 48%) !important;
+}
+
+/*Result CSS*/
+.result-fonts {
+  font-family: 'Poppins' !important;
+  font-weight: 700 !important;
+  font-style: italic !important;
+  font-size: 5rem !important;
+}
+
+@media screen and (max-width:280px) {
+  .result-fonts {
+    font-size: 3rem !important;
+  }
+  
+}
+
+@media screen and (max-width:375px) {
+  .result-fonts {
+    font-size: 3.5rem !important;
+  }
+  
+}
